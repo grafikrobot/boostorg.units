@@ -11,6 +11,7 @@ import testing ;
 
 project :
   : requirements <warnings>all
+    <library>/boost/units//boost_units
 ;
 
 files = [ glob *.cpp : performance.* runtime_unit.* ] ;

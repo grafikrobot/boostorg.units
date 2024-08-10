@@ -14,8 +14,7 @@ import print ;
 import sequence ;
 import feature ;
 
-project :
-;
+project : requirements <library>/boost/units//boost_units ;
 
 path-constant INCLUDE_DIR : ../include ;
 headers = [ path.glob-tree $(INCLUDE_DIR)/boost/units : *.hpp : detail ] ;
